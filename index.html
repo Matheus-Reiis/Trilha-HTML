@@ -8,22 +8,23 @@
 </head>
 
 <body>
-    <h1><i><mark>Módulo 1 - Primeiros passos com HTML</mark></i></h1>
+    <h1 id="inicio"><mark>Módulo 1 - Primeiros passos com HTML</mark></h1>
     <hr>
 
     <ul>
         <li><a href="#computadores"><b>História dos computadores</b></a></li>
         <li><a href="#clients"><b>O que são clients</b></a></li>
         <li><a href="#servers"><b>O que são servers</b></a></li>
-        <li><a href="#"><b>Como é uma estrutura básica de um HTML</b></a></li>
-        <li><a href="#"><b>Entendendo a diferença entre listas ordenadas e não ordenadas</b></a></li>
-        <li><a href="#"><b>Links de referência</b></a></li>
+        <li><a href="#estrutura"><b>Como é uma estrutura básica de um HTML</b></a></li>
+        <li><a href="#listas"><b>Entendendo a diferença entre listas ordenadas e não ordenadas</b></a></li>
+        <li><a href="#links"><b>Links de referência</b></a></li>
     </ul>
 
 
 
-    <h2 id="computadores"><mark><i>História dos Computadores:</i></mark></h2>
+    <h2 id="computadores"><mark><sup>1</sup>História dos Computadores:</mark></h2>
     <hr>
+
     <ol>
         <li><u><strong>Primeira Geração:</strong></u></li>
         <ul>
@@ -65,10 +66,12 @@
 
 
 
-    <h2 id="clients"><mark><i>O que são Clients:</i></mark></h2>
+    <h2 id="clients"><mark><i><sup>2</sup>O que <small>são</small> Clients</i></mark></h2>
     <hr>
-    <p>No mundo da web, "client" (cliente) é o dispositivo ou aplicativo que faz uma requisição a um servidor para
-        acessar algum conteúdo ou serviço.</p>
+        <blockquote>
+            No mundo da web, "client" <sub><strong>(cliente)</strong></sub> é o dispositivo ou aplicativo que faz uma requisição a um servidor para
+        acessar algum conteúdo ou serviço.
+        </blockquote>
 
     <ol>
         <li><u><strong>Exemplos de clients:</strong></u></li>
@@ -94,9 +97,11 @@
         </ul>
     </ol>
 
-    <h2 id="servers"><mark><i>O que são Servers:</i></mark></h2>
+
+
+    <h2 id="servers"><mark><i><sup>3</sup>O que <small>são</small> Servers:</i></mark></h2>
     <hr>
-    <p>Na web, um server (Servidor) é um computador ou sistema que fornece dados, serviços ou recursos para outros
+    <p>Na web, um server <sub><strong>(Servidor)</strong></sub> é um computador ou sistema que fornece dados, serviços ou recursos para outros
         computadores, chamados de clients.</p>
 
     <ol>
@@ -129,12 +134,19 @@
         </ul>
     </ol>
 
-    <h2><mark><i>Como é uma estrutura básica de um HTML:</i></mark></h2>
-    <p>Minha página</p>
 
-<h2><mark><i>Entendendo a diferença entre listas ordenadas e não ordenadas.</i></mark></h2>
+
+    <h2 id="estrutura"><mark><i><sup>4</sup>Como é uma estrutura básica de um HTML:</i></mark></h2>
+    <hr>
+    <p><q>Minha página</q></p>
+
+
+
+<h2 id="listas"><mark><i><sup>5</sup>Entendendo a diferença entre listas ordenadas e não ordenadas.</i></mark></h2>
 <hr>
-<p><strong>Lista Ordenada os itêns têm ordem (nùmeros automaticamente).</strong></p>
+<blockquote>
+    <strong>Lista Ordenada os itêns têm ordem <sub><strong>(nùmeros automaticamente)</strong></sub>.</strong> 
+</blockquote>
 <ol>
     <li><u><strong>Primeiro</strong></u></li>
     <li><u><strong>Segundo</strong></u></li>
@@ -148,9 +160,11 @@
     <li>Leite</li>
 </ul>
 
-<h2><mark><u>Links de referência:</mark></u></h2>
+
+
+<h2 id="links"><mark><u><sup>6</sup>Links de referência:</mark></u></h2>
 <hr>
-<p><strong>Tag < a > < /a > (de "anchor", âncora) é usada para criar links que levam o usuário para outro lugar, como:</strong></p>
+<p><strong>Tag < a > < /a > <sub><strong>(de "anchor", âncora)</strong></sub> é usada para criar links que levam o usuário para outro lugar, como:</strong></p>
 
 <ul>
     <li>Outra página</li>
@@ -166,6 +180,7 @@
     <li>href= Hypertext REFerence (referência do link)</li>
     <li>O que está entre as tags aparece como texto clicável</li>
 </ul>
+<br>
 
 <li><u><strong>Exemplos:</strong></u></li>
 <ul>
@@ -177,6 +192,7 @@
     <li>Link para parte da mesma página	< a href="#secao1">Ir para a seção 1</a></li>
 </ul>
 </ol>
+<a href="#inicio">Voltar</a>
 </body>
 
 </html>
